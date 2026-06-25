@@ -15,9 +15,10 @@
       <div id="nav-links" class="nav-links">
         <a href="#plan">Plan</a>
         <a href="#architecture">Architecture</a>
-        <a href="#pipeline">Pipeline</a>
+        <a href="#labs">Labs</a>
+        <a href="#practices">Practices</a>
         <a href="#questions">Questions</a>
-        <a href="#resources">Resources</a>
+        <a href="#raci">RACI</a>
         <button id="theme-toggle" class="ghost" type="button">Dark</button>
       </div>
     </nav>
@@ -26,37 +27,70 @@
   <main id="top">
     <section class="hero shell">
       <div class="hero-copy">
-        <p class="eyebrow">For Azure architects assigned to Azure ML delivery</p>
-        <h1>Get project-ready for secure Azure ML and MLOps delivery.</h1>
-        <p class="lead">A practical accelerator for designing a secure Azure Machine Learning workbench, setting up Azure DevOps pipelines, asking the right customer questions, and avoiding scope traps.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="#plan">Start the crash plan</a>
-          <a class="button secondary" href="#architecture">View architecture</a>
-        </div>
-        <div class="trust-strip"><span>Azure ML</span><span>MLflow</span><span>Model Registry</span><span>Managed Endpoints</span><span>Azure DevOps</span></div>
+        <p class="eyebrow">Azure ML, Azure DevOps, MLOps, secure workbench</p>
+        <h1>Lead a secure Azure ML workbench delivery with confidence.</h1>
+        <p class="lead">A professional, interactive project page for Azure architects covering architecture diagrams, labs, best practices, customer discovery, RACI, and delivery readiness.</p>
+        <div class="hero-actions"><a class="button primary" href="#architecture">Open diagrams</a><a class="button secondary" href="#labs">Start deployable labs</a></div>
+        <div class="trust-strip"><span>Workspace</span><span>Compute</span><span>MLflow</span><span>Registry</span><span>Endpoints</span><span>DevOps</span><span>Monitoring</span></div>
       </div>
       <aside class="hero-card">
         <div class="score-ring"><span id="readiness-score">0%</span><small>Readiness</small></div>
-        <h2>Delivery focus</h2>
-        <ul class="clean-list"><li>Workspace foundation</li><li>Notebook environment</li><li>CPU and GPU clusters</li><li>Train, register, deploy flow</li><li>Monitoring and handover</li></ul>
+        <h2>SOW-aligned scope</h2>
+        <ul class="clean-list"><li>Secure Azure ML workbench</li><li>CPU and GPU compute</li><li>Training, tracking, deployment</li><li>Azure DevOps pipeline</li><li>Runbook, KT, handover</li></ul>
       </aside>
     </section>
 
-    <section class="shell section stats-grid"><article class="stat"><strong>4 days</strong><span>Crash readiness</span></article><article class="stat"><strong>4 weeks</strong><span>Lean delivery</span></article><article class="stat"><strong>1 model</strong><span>Acceptance demo</span></article><article class="stat"><strong>0 fluff</strong><span>Architect-first learning</span></article></section>
+    <section class="shell section stats-grid"><article class="stat"><strong>10</strong><span>Reference diagrams</span></article><article class="stat"><strong>5</strong><span>Deployable labs</span></article><article class="stat"><strong>40+</strong><span>Workshop questions</span></article><article class="stat"><strong>RACI</strong><span>Delivery ownership</span></article></section>
 
-    <section id="plan" class="shell section"><div class="section-head"><p class="eyebrow">Crash learning plan</p><h2>Learn what matters before the customer call.</h2><p>Do not study ML algorithms deeply. Learn the platform, security, compute, model lifecycle, endpoint deployment, and Azure DevOps pipeline path.</p></div><div class="tabs"><button class="tab active" data-tab="day1">Day 1</button><button class="tab" data-tab="day2">Day 2</button><button class="tab" data-tab="day3">Day 3</button><button class="tab" data-tab="day4">Day 4</button></div><div class="tab-panel active" id="day1"><h3>Azure ML basics</h3><p>Understand workspace, compute instance, compute cluster, datastore, environment, job, model, registry, and endpoint.</p><ul class="task-list"><li><label><input type="checkbox"> Complete Azure ML in a day quickstart</label></li><li><label><input type="checkbox"> Map each component to delivery scope</label></li><li><label><input type="checkbox"> Write a one-page cheat sheet</label></li></ul></div><div class="tab-panel" id="day2"><h3>Secure architecture and Azure DevOps</h3><p>Focus on identity, Key Vault, Storage, ACR, managed identities, YAML pipelines, and service connections.</p><ul class="task-list"><li><label><input type="checkbox"> Read secure workspace docs</label></li><li><label><input type="checkbox"> Create a basic Azure DevOps project and repo</label></li><li><label><input type="checkbox"> Understand YAML stages and service connections</label></li></ul></div><div class="tab-panel" id="day3"><h3>Hands-on MLOps lab</h3><p>Run one end-to-end lab: train, track with MLflow, register model, deploy endpoint, and smoke test.</p><ul class="task-list"><li><label><input type="checkbox"> Run Microsoft Learn MLOps lab</label></li><li><label><input type="checkbox"> Capture experiment, model, endpoint, and pipeline evidence</label></li><li><label><input type="checkbox"> Create validation evidence pack</label></li></ul></div><div class="tab-panel" id="day4"><h3>Workshop and delivery prep</h3><p>Prepare question bank, delivery plan, architecture view, pipeline view, and risk register.</p><ul class="task-list"><li><label><input type="checkbox"> Finalize customer questions</label></li><li><label><input type="checkbox"> Prepare architecture talking points</label></li><li><label><input type="checkbox"> Build risk log and acceptance checklist</label></li></ul></div></section>
+    <section id="plan" class="shell section">
+      <div class="section-head"><p class="eyebrow">Crash plan</p><h2>Learn only what helps delivery.</h2><p>Do not chase deep data science theory. Focus on the secure platform, compute, model lifecycle, endpoint serving, DevOps pipeline, monitoring, and handover evidence.</p></div>
+      <div class="tabs"><button class="tab active" data-tab="day1">Day 1</button><button class="tab" data-tab="day2">Day 2</button><button class="tab" data-tab="day3">Day 3</button><button class="tab" data-tab="day4">Day 4</button></div>
+      <div class="tab-panel active" id="day1"><h3>Azure ML foundation</h3><ul class="task-list"><li><label><input type="checkbox"> Understand workspace, compute instance, compute cluster, datastore, environment, job, model, registry, and endpoint</label></li><li><label><input type="checkbox"> Complete Azure ML in a day quickstart</label></li><li><label><input type="checkbox"> Prepare one-page component cheat sheet</label></li></ul></div>
+      <div class="tab-panel" id="day2"><h3>Security and DevOps foundation</h3><ul class="task-list"><li><label><input type="checkbox"> Review private access, identity, Key Vault, Storage, ACR, DNS, and logging path</label></li><li><label><input type="checkbox"> Create Azure DevOps project mental model: repo, branch, service connection, pipeline, environment approval</label></li><li><label><input type="checkbox"> Draft access and dependency checklist for kickoff</label></li></ul></div>
+      <div class="tab-panel" id="day3"><h3>Hands-on MLOps</h3><ul class="task-list"><li><label><input type="checkbox"> Run one lab end to end: train, track, register, deploy, test</label></li><li><label><input type="checkbox"> Capture evidence of experiment, registered model, endpoint, and pipeline execution</label></li><li><label><input type="checkbox"> Prepare demo script for one model deployment</label></li></ul></div>
+      <div class="tab-panel" id="day4"><h3>Customer readiness</h3><ul class="task-list"><li><label><input type="checkbox"> Finalize workshop question bank</label></li><li><label><input type="checkbox"> Walk through 10 diagrams and know what decision each diagram drives</label></li><li><label><input type="checkbox"> Prepare RAID, RACI, acceptance evidence, and handover checklist</label></li></ul></div>
+    </section>
 
-    <section id="architecture" class="shell section split"><div><p class="eyebrow">Reference architecture</p><h2>Secure Azure ML workbench pattern</h2><p>This pattern assumes an existing Azure Landing Zone, corporate access, and platform services aligned with enterprise controls.</p><div class="callout">Architect stance: keep training, tracking, model registry, endpoint, secrets, storage, and logging separate.</div></div><div class="diagram-card"><div class="arch-grid"><span>R&D Users</span><span>Azure ML Workspace</span><span>Compute Instance</span><span>CPU Cluster</span><span>GPU Cluster</span><span>Model Registry</span><span>Managed Endpoint</span><span>Storage</span><span>Key Vault</span><span>ACR</span><span>App Insights</span><span>Log Analytics</span></div></div></section>
+    <section id="architecture" class="shell section">
+      <div class="section-head"><p class="eyebrow">Reference architecture diagrams</p><h2>10 SOW-aligned architecture views.</h2><p>Use these as workshop visuals. Select a layer to filter. Click any diagram to see purpose, flow, decisions, and delivery evidence.</p></div>
+      <div class="filter-row" id="arch-filters"></div>
+      <div class="architecture-layout"><div class="architecture-grid" id="architecture-grid"></div><aside class="detail-card sticky-detail" id="architecture-detail">Select a diagram to inspect details.</aside></div>
+    </section>
 
-    <section id="pipeline" class="shell section"><div class="section-head"><p class="eyebrow">MLOps pipeline</p><h2>Minimum viable train-register-deploy flow</h2><p>For a fixed-scope delivery, prove one repeatable path before building maturity features.</p></div><div class="pipeline"><button class="step active" data-step="1"><span>1</span> Commit</button><button class="step" data-step="2"><span>2</span> Validate</button><button class="step" data-step="3"><span>3</span> Train</button><button class="step" data-step="4"><span>4</span> Register</button><button class="step" data-step="5"><span>5</span> Deploy</button><button class="step" data-step="6"><span>6</span> Monitor</button></div><article id="pipeline-detail" class="detail-card">Data scientist commits training code, environment file, job YAML, scoring script, and endpoint YAML to the repository.</article></section>
+    <section id="labs" class="shell section">
+      <div class="section-head"><p class="eyebrow">Deployable labs</p><h2>5 labs to learn by building.</h2><p>Run these in order. The goal is not certification prep. The goal is project muscle memory.</p></div>
+      <div class="lab-grid" id="lab-grid"></div>
+    </section>
 
-    <section id="questions" class="shell section"><div class="section-head"><p class="eyebrow">Customer workshop</p><h2>Ask these before design sign-off.</h2><p>Use filters to focus the conversation. Missing answers become risks, dependencies, or change requests.</p></div><div class="filter-row"><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="business">Business</button><button class="filter" data-filter="data">Data</button><button class="filter" data-filter="security">Security</button><button class="filter" data-filter="devops">DevOps</button><button class="filter" data-filter="acceptance">Acceptance</button></div><div class="question-grid" id="question-grid"></div></section>
+    <section id="practices" class="shell section">
+      <div class="section-head"><p class="eyebrow">Best practices</p><h2>Delivery guardrails for Azure ML workbench setup.</h2><p>These are the practices to defend in design reviews and customer workshops.</p></div>
+      <div class="filter-row" id="practice-filters"></div>
+      <div class="practice-grid" id="practice-grid"></div>
+    </section>
 
-    <section class="shell section split"><div><p class="eyebrow">Delivery plan</p><h2>Four-week execution model</h2><p>Practical delivery sequence for a lean Azure ML workbench engagement.</p></div><div class="timeline"><article><strong>Week 1</strong><span>Access, discovery, design, landing-zone alignment, DevOps setup.</span></article><article><strong>Week 2</strong><span>Workspace, compute, storage, Key Vault, ACR, MLflow.</span></article><article><strong>Week 3</strong><span>Pipeline, model registration, endpoint, smoke test, monitoring.</span></article><article><strong>Week 4</strong><span>Validation, documentation, runbook, KT, handover.</span></article></div></section>
+    <section id="pipeline" class="shell section">
+      <div class="section-head"><p class="eyebrow">MLOps pipeline</p><h2>Minimum viable train-register-deploy flow.</h2><p>For a fixed-scope workbench, prove one repeatable path before expanding maturity.</p></div>
+      <div class="pipeline"><button class="step active" data-step="1"><span>1</span> Commit</button><button class="step" data-step="2"><span>2</span> Validate</button><button class="step" data-step="3"><span>3</span> Train</button><button class="step" data-step="4"><span>4</span> Register</button><button class="step" data-step="5"><span>5</span> Deploy</button><button class="step" data-step="6"><span>6</span> Monitor</button></div>
+      <article id="pipeline-detail" class="detail-card">Data scientist commits training code, environment file, job YAML, scoring script, and endpoint YAML to the repository.</article>
+    </section>
 
-    <section id="resources" class="shell section"><div class="section-head"><p class="eyebrow">Resources</p><h2>High-signal learning links</h2><p>Use Microsoft docs and labs first. Use video and paid courses only to speed up comprehension.</p></div><div class="resource-grid"><a href="https://learn.microsoft.com/en-us/training/courses/ai-300t00" target="_blank" rel="noreferrer">AI-300T00 official course</a><a href="https://learn.microsoft.com/en-us/azure/machine-learning/tutorial-azure-ml-in-a-day" target="_blank" rel="noreferrer">Azure ML in a day</a><a href="https://microsoftlearning.github.io/mslearn-mlops/" target="_blank" rel="noreferrer">Microsoft Learn MLOps labs</a><a href="https://github.com/MicrosoftLearning/mslearn-mlops" target="_blank" rel="noreferrer">MLOps lab repo</a><a href="https://github.com/Azure/mlops-v2" target="_blank" rel="noreferrer">Azure MLOps v2 accelerator</a><a href="https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/machine-learning-operations-v2" target="_blank" rel="noreferrer">MLOps v2 architecture</a><a href="https://learn.microsoft.com/en-us/azure/machine-learning/how-to-secure-workspace-vnet" target="_blank" rel="noreferrer">Secure Azure ML workspace</a><a href="https://learn.microsoft.com/en-us/azure/devops/pipelines/create-first-pipeline" target="_blank" rel="noreferrer">Create first Azure Pipeline</a></div></section>
+    <section id="questions" class="shell section">
+      <div class="section-head"><p class="eyebrow">Customer questions</p><h2>Ask these before design sign-off.</h2><p>Use filters to focus the conversation. Missing answers become risks, dependencies, assumptions, or change requests.</p></div>
+      <div class="filter-row" id="question-filters"></div>
+      <div class="question-grid" id="question-grid"></div>
+    </section>
+
+    <section id="raci" class="shell section">
+      <div class="section-head"><p class="eyebrow">RACI matrix</p><h2>Ownership model for delivery.</h2><p>This prevents the classic failure: Rackspace builds the platform, but customer-owned data, identity, network, and approvals block acceptance.</p></div>
+      <div class="table-wrap"><table class="raci-table" id="raci-table"></table></div>
+    </section>
+
+    <section id="resources" class="shell section">
+      <div class="section-head"><p class="eyebrow">Reference links</p><h2>High-signal resources.</h2><p>Use Microsoft Learn and Microsoft GitHub repos first. Use videos and paid courses only as accelerators.</p></div>
+      <div class="resource-grid"><a href="https://learn.microsoft.com/en-us/training/courses/ai-300t00" target="_blank" rel="noreferrer">AI-300T00 official course</a><a href="https://learn.microsoft.com/en-us/azure/machine-learning/tutorial-azure-ml-in-a-day" target="_blank" rel="noreferrer">Azure ML in a day</a><a href="https://microsoftlearning.github.io/mslearn-mlops/" target="_blank" rel="noreferrer">Microsoft Learn MLOps labs</a><a href="https://github.com/MicrosoftLearning/mslearn-mlops" target="_blank" rel="noreferrer">MLOps lab repo</a><a href="https://github.com/Azure/mlops-v2" target="_blank" rel="noreferrer">Azure MLOps v2 accelerator</a><a href="https://github.com/Azure/azureml-examples" target="_blank" rel="noreferrer">Azure ML examples</a><a href="https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/machine-learning-operations-v2" target="_blank" rel="noreferrer">MLOps v2 architecture</a><a href="https://learn.microsoft.com/en-us/azure/machine-learning/how-to-secure-workspace-vnet" target="_blank" rel="noreferrer">Secure Azure ML workspace</a></div>
+    </section>
   </main>
-  <footer class="footer shell"><p>Built for Azure architects who need to lead secure Azure ML delivery fast.</p><a href="#top">Back to top</a></footer>
+  <footer class="footer shell"><p>Public version. Customer names, contacts, pricing, and private SOW identifiers are intentionally excluded.</p><a href="#top">Back to top</a></footer>
   <script src="app.js"></script>
 </body>
 </html>
