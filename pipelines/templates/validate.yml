@@ -1,0 +1,12 @@
+parameters:
+- name: pythonVersion
+  type: string
+  default: '3.10'
+
+steps:
+- script: python --version
+  displayName: Check Python version
+
+- script: |
+    python -m compileall samples
+  displayName: Validate Python files
