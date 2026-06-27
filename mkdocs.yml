@@ -17,3 +17,5 @@ nav:
   - Troubleshooting: docs/14-troubleshooting.md
   - Labs: docs/15-labs.md
   - Architecture Checklist: docs/16-architecture-checklist.md
+  - Self Hosted Agent Build Guide: docs/17-self-hosted-agent-build-guide.md
+  - Private Endpoint DNS Guide: docs/18-private-endpoint-dns-guide.md
