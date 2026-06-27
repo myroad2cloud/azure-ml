@@ -1,0 +1,16 @@
+trigger:
+- main
+
+pool:
+  name: self-hosted-aml
+
+variables:
+  resourceGroup: rg-aml-dev
+  workspaceName: amlws-dev
+
+steps:
+- script: az extension add -n ml -y
+  displayName: Install Azure ML extension
+
+- script: az ml job create --file samples/train-job.yaml --resource-group $(resourceGroup) --workspace-name $(workspaceName)
+  displayName: Submit Azure ML job
