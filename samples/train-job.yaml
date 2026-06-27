@@ -1,0 +1,7 @@
+type: command
+name: basic-training-job
+display_name: basic-training-job
+code: .
+command: python train.py
+compute: azureml:cpu-cluster
+experiment_name: devops-aml-demo
