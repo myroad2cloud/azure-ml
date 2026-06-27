@@ -1,0 +1,10 @@
+site_name: Enterprise Azure ML DevOps Playbook
+nav:
+  - Home: docs/index.md
+  - Executive Overview: docs/01-executive-overview.md
+  - Azure DevOps Foundations: docs/02-azure-devops-foundations.md
+  - Self-hosted Agents: docs/05-self-hosted-agents.md
+  - Private Networking: docs/06-private-networking.md
+  - CI Pipeline: docs/08-ci-pipeline.md
+  - CD Pipeline: docs/09-cd-pipeline.md
+  - Hands-on Labs: docs/15-hands-on-labs.md
