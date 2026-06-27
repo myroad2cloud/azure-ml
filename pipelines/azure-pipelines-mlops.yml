@@ -1,0 +1,43 @@
+trigger:
+- main
+
+pool:
+  name: self-hosted-aml
+
+variables:
+  resourceGroup: rg-aml-dev
+  workspaceName: amlws-dev
+
+stages:
+- stage: Validate
+  jobs:
+  - job: Validate
+    steps:
+    - template: templates/validate.yml
+
+- stage: Train
+  dependsOn: Validate
+  jobs:
+  - job: Train
+    steps:
+    - template: templates/submit-training-job.yml
+      parameters:
+        resourceGroup: $(resourceGroup)
+        workspaceName: $(workspaceName)
+        jobFile: samples/train-job.yaml
+
+- stage: Register
+  dependsOn: Train
+  jobs:
+  - job: Register
+    steps:
+    - script: echo Register model placeholder
+      displayName: Register model
+
+- stage: DeployDev
+  dependsOn: Register
+  jobs:
+  - job: DeployDev
+    steps:
+    - script: echo Deploy managed online endpoint placeholder
+      displayName: Deploy dev endpoint
