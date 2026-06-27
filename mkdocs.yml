@@ -3,8 +3,17 @@ nav:
   - Home: docs/index.md
   - Executive Overview: docs/01-executive-overview.md
   - Azure DevOps Foundations: docs/02-azure-devops-foundations.md
-  - Self-hosted Agents: docs/05-self-hosted-agents.md
+  - Repository Strategy: docs/03-repository.md
+  - Connection: docs/04.md
+  - Self Hosted Agents: docs/05-self-hosted-agents.md
   - Private Networking: docs/06-private-networking.md
+  - Azure ML Workspace: docs/07-azure-ml-workspace.md
   - CI Pipeline: docs/08-ci-pipeline.md
-  - CD Pipeline: docs/09-cd-pipeline.md
-  - Hands-on Labs: docs/15-hands-on-labs.md
+  - Delivery Pipeline: docs/09-delivery-pipeline.md
+  - MLOps Lifecycle: docs/10-mlops-lifecycle.md
+  - Infrastructure as Code: docs/11-infrastructure-as-code.md
+  - Security and Governance: docs/12-security-governance.md
+  - Operations: docs/13-operations.md
+  - Troubleshooting: docs/14-troubleshooting.md
+  - Labs: docs/15-labs.md
+  - Architecture Checklist: docs/16-architecture-checklist.md
