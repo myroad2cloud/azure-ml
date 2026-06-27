@@ -1,0 +1,15 @@
+parameters:
+- name: resourceGroup
+  type: string
+- name: workspaceName
+  type: string
+- name: jobFile
+  type: string
+  default: samples/train-job.yaml
+
+steps:
+- script: az extension add -n ml -y
+  displayName: Install Azure ML extension
+
+- script: az ml job create --file ${{ parameters.jobFile }} --resource-group ${{ parameters.resourceGroup }} --workspace-name ${{ parameters.workspaceName }}
+  displayName: Submit Azure ML training job
