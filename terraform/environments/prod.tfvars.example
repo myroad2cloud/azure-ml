@@ -1,0 +1,14 @@
+resource_group_name = "rg-aml-prod"
+location = "eastus"
+tenant_id = "replace-with-tenant-id"
+vnet_name = "vnet-aml-prod"
+storage_account_name = "stamlprod001"
+key_vault_name = "kv-aml-prod-001"
+application_insights_name = "appi-aml-prod"
+workspace_name = "amlws-prod"
+
+tags = {
+  environment = "prod"
+  workload = "azure-ml"
+  owner = "platform-team"
+}
