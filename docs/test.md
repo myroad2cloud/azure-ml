@@ -1,3 +1,3 @@
-# Test
+# Notes
 
-This is a test file.
+This page is reserved for future additions to the playbook.
