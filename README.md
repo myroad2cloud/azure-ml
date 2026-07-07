@@ -10,6 +10,14 @@ Interactive GitHub Pages site for Azure Machine Learning, Azure DevOps, secure M
 - Customer workshop question bank
 - Risk and dependency register
 - Reference learning resources
+- Flora Azure ML Bootcamp visual guide
+
+## Flora Azure ML Bootcamp
+
+New learning pack:
+
+- [Visual guide](docs/flora-azure-ml-bootcamp/README.md)
+- PowerPoint deck generated in ChatGPT: `Flora_Azure_ML_Bootcamp_Visual_Guide.pptx`
 
 ## GitHub Pages
 
