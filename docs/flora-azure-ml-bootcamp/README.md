@@ -6,7 +6,7 @@ The goal is not to become a data scientist. The goal is to deliver a secure Azur
 
 ## GitHub Page
 
-Open the visual GitHub Pages version after the branch is merged and Pages is deployed:
+Open the visual GitHub Pages version after deployment:
 
 ```text
 https://myroad2cloud.github.io/azure-ml/flora-azure-ml-bootcamp.html
@@ -67,6 +67,7 @@ Azure ML Workbench
 | 7 | Azure Container Apps web UI | Provide controlled web-based access |
 | 8 | Validation and handover | Close the project with evidence |
 | 9 | Workspace internals | Know what Azure ML creates, depends on, and what can break |
+| 10 | Compute sizing and cost controls | Prevent GPU surprises, idle cost leakage, and quota blockers |
 
 ## Key architecture rule
 
