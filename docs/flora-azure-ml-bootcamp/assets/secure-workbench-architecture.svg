@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#f6fbff"/>
+  <text x="60" y="60" font-family="Arial" font-size="34" font-weight="700" fill="#123">Flora Azure ML Secure Workbench</text>
+  <text x="60" y="95" font-family="Arial" font-size="18" fill="#456">Private-only Terraform delivery pattern</text>
+  <rect x="55" y="130" width="220" height="110" rx="18" fill="#dff0ff" stroke="#5aa0d8"/>
+  <text x="95" y="178" font-family="Arial" font-size="22" font-weight="700">R&amp;D Users</text>
+  <text x="92" y="210" font-family="Arial" font-size="16">Studio / SDK / CLI</text>
+  <rect x="360" y="130" width="260" height="110" rx="18" fill="#fff2cc" stroke="#d6a700"/>
+  <text x="390" y="178" font-family="Arial" font-size="22" font-weight="700">Private DNS</text>
+  <text x="395" y="210" font-family="Arial" font-size="16">Internal address book</text>
+  <rect x="720" y="115" width="390" height="160" rx="20" fill="#e6f4ea" stroke="#55a868"/>
+  <text x="780" y="160" font-family="Arial" font-size="24" font-weight="700">Azure ML Workspace</text>
+  <text x="760" y="195" font-family="Arial" font-size="16">Workbench control center</text>
+  <text x="760" y="225" font-family="Arial" font-size="16">Private Endpoint, public access disabled</text>
+  <line x1="275" y1="185" x2="360" y2="185" stroke="#345" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="620" y1="185" x2="720" y2="185" stroke="#345" stroke-width="4" marker-end="url(#arrow)"/>
+  <rect x="100" y="350" width="220" height="110" rx="16" fill="#ffffff" stroke="#6baed6"/>
+  <text x="135" y="392" font-family="Arial" font-size="20" font-weight="700">Compute Instance</text>
+  <text x="138" y="424" font-family="Arial" font-size="15">Personal dev desk</text>
+  <rect x="370" y="350" width="220" height="110" rx="16" fill="#ffffff" stroke="#6baed6"/>
+  <text x="410" y="392" font-family="Arial" font-size="20" font-weight="700">CPU Cluster</text>
+  <text x="415" y="424" font-family="Arial" font-size="15">Batch + features</text>
+  <rect x="640" y="350" width="220" height="110" rx="16" fill="#ffffff" stroke="#6baed6"/>
+  <text x="680" y="392" font-family="Arial" font-size="20" font-weight="700">GPU Cluster</text>
+  <text x="683" y="424" font-family="Arial" font-size="15">On-demand training</text>
+  <rect x="910" y="350" width="220" height="110" rx="16" fill="#ffffff" stroke="#6baed6"/>
+  <text x="950" y="392" font-family="Arial" font-size="20" font-weight="700">MLflow</text>
+  <text x="935" y="424" font-family="Arial" font-size="15">Experiment diary</text>
+  <line x1="915" y1="275" x2="210" y2="350" stroke="#789" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="915" y1="275" x2="480" y2="350" stroke="#789" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="915" y1="275" x2="750" y2="350" stroke="#789" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="915" y1="275" x2="1020" y2="350" stroke="#789" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="100" y="555" width="190" height="95" rx="16" fill="#fefefe" stroke="#999"/>
+  <text x="150" y="595" font-family="Arial" font-size="20" font-weight="700">Storage</text>
+  <text x="128" y="625" font-family="Arial" font-size="15">Data + artifacts</text>
+  <rect x="330" y="555" width="190" height="95" rx="16" fill="#fefefe" stroke="#999"/>
+  <text x="378" y="595" font-family="Arial" font-size="20" font-weight="700">Key Vault</text>
+  <text x="365" y="625" font-family="Arial" font-size="15">Secrets locker</text>
+  <rect x="560" y="555" width="190" height="95" rx="16" fill="#fefefe" stroke="#999"/>
+  <text x="630" y="595" font-family="Arial" font-size="20" font-weight="700">ACR</text>
+  <text x="585" y="625" font-family="Arial" font-size="15">Container images</text>
+  <rect x="790" y="555" width="190" height="95" rx="16" fill="#fefefe" stroke="#999"/>
+  <text x="825" y="595" font-family="Arial" font-size="20" font-weight="700">Endpoint</text>
+  <text x="820" y="625" font-family="Arial" font-size="15">Real-time scoring</text>
+  <rect x="1020" y="555" width="140" height="95" rx="16" fill="#fefefe" stroke="#999"/>
+  <text x="1052" y="595" font-family="Arial" font-size="20" font-weight="700">ACA UI</text>
+  <text x="1040" y="625" font-family="Arial" font-size="15">Web access</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#345"/>
+    </marker>
+  </defs>
+</svg>
