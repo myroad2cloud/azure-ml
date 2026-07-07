@@ -14,10 +14,10 @@ https://myroad2cloud.github.io/azure-ml/flora-azure-ml-bootcamp.html
 
 ## Deck
 
-The PowerPoint deck is stored as:
+The PowerPoint deck is stored at the repository root as:
 
 ```text
-docs/flora-azure-ml-bootcamp/assets/Flora_Azure_ML_Bootcamp_Visual_Guide.pptx
+Flora_Azure_ML_Bootcamp_Visual_Guide.pptx
 ```
 
 ## Project context from SOW
