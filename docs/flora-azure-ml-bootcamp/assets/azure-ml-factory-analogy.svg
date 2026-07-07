@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#fffaf2"/>
+  <text x="60" y="70" font-family="Arial" font-size="34" font-weight="700" fill="#222">Azure ML as a Secure R&amp;D Factory</text>
+  <text x="60" y="108" font-family="Arial" font-size="18" fill="#555">A simple analogy for explaining the Flora workbench</text>
+  <g font-family="Arial">
+    <rect x="70" y="160" width="310" height="115" rx="18" fill="#e7f0ff" stroke="#5a7fd8"/>
+    <text x="100" y="205" font-size="22" font-weight="700">Scientists' desks</text>
+    <text x="100" y="238" font-size="18">Compute Instances</text>
+    <rect x="445" y="160" width="310" height="115" rx="18" fill="#e9f8ec" stroke="#55a868"/>
+    <text x="475" y="205" font-size="22" font-weight="700">Factory machines</text>
+    <text x="475" y="238" font-size="18">CPU Compute Clusters</text>
+    <rect x="820" y="160" width="310" height="115" rx="18" fill="#fde9e7" stroke="#d95f59"/>
+    <text x="850" y="205" font-size="22" font-weight="700">High-power oven</text>
+    <text x="850" y="238" font-size="18">GPU Compute Cluster</text>
+    <rect x="70" y="340" width="310" height="115" rx="18" fill="#fff2cc" stroke="#d6a700"/>
+    <text x="100" y="385" font-size="22" font-weight="700">Experiment diary</text>
+    <text x="100" y="418" font-size="18">MLflow tracking</text>
+    <rect x="445" y="340" width="310" height="115" rx="18" fill="#f0e7ff" stroke="#8d65d8"/>
+    <text x="475" y="385" font-size="22" font-weight="700">Approved recipe shelf</text>
+    <text x="475" y="418" font-size="18">Model Registry</text>
+    <rect x="820" y="340" width="310" height="115" rx="18" fill="#e7fbff" stroke="#42a5b3"/>
+    <text x="850" y="385" font-size="22" font-weight="700">Serving counter</text>
+    <text x="850" y="418" font-size="18">Managed Online Endpoint</text>
+    <rect x="70" y="520" width="310" height="115" rx="18" fill="#ffffff" stroke="#999"/>
+    <text x="100" y="565" font-size="22" font-weight="700">Sample freezer</text>
+    <text x="100" y="598" font-size="18">Azure Storage</text>
+    <rect x="445" y="520" width="310" height="115" rx="18" fill="#ffffff" stroke="#999"/>
+    <text x="475" y="565" font-size="22" font-weight="700">Secret locker</text>
+    <text x="475" y="598" font-size="18">Key Vault</text>
+    <rect x="820" y="520" width="310" height="115" rx="18" fill="#ffffff" stroke="#999"/>
+    <text x="850" y="565" font-size="22" font-weight="700">Tasting window</text>
+    <text x="850" y="598" font-size="18">Azure Container Apps Web UI</text>
+  </g>
+</svg>

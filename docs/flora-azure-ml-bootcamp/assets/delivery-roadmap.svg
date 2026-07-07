@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#f8fbf8"/>
+  <text x="60" y="70" font-family="Arial" font-size="34" font-weight="700" fill="#123">4-Week Delivery Roadmap</text>
+  <text x="60" y="108" font-family="Arial" font-size="18" fill="#456">Mapped to Flora Azure ML Workbench SOW milestones</text>
+  <g font-family="Arial">
+    <line x1="135" y1="360" x2="1065" y2="360" stroke="#385" stroke-width="8"/>
+    <circle cx="180" cy="360" r="34" fill="#dff0ff" stroke="#4a90d9" stroke-width="4"/>
+    <circle cx="460" cy="360" r="34" fill="#fff2cc" stroke="#d6a700" stroke-width="4"/>
+    <circle cx="740" cy="360" r="34" fill="#e9f8ec" stroke="#55a868" stroke-width="4"/>
+    <circle cx="1020" cy="360" r="34" fill="#fde9e7" stroke="#d95f59" stroke-width="4"/>
+    <text x="158" y="368" font-size="24" font-weight="700">1</text>
+    <text x="438" y="368" font-size="24" font-weight="700">2</text>
+    <text x="718" y="368" font-size="24" font-weight="700">3</text>
+    <text x="998" y="368" font-size="24" font-weight="700">4</text>
+    <rect x="70" y="170" width="230" height="130" rx="18" fill="#fff" stroke="#4a90d9"/>
+    <text x="105" y="215" font-size="22" font-weight="700">MS1</text>
+    <text x="105" y="250" font-size="17">Kickoff, access</text>
+    <text x="105" y="275" font-size="17">Design confirmation</text>
+    <rect x="345" y="440" width="230" height="155" rx="18" fill="#fff" stroke="#d6a700"/>
+    <text x="380" y="485" font-size="22" font-weight="700">MS2</text>
+    <text x="380" y="520" font-size="17">Platform discovery</text>
+    <text x="380" y="545" font-size="17">Secure workbench</text>
+    <text x="380" y="570" font-size="17">Foundation setup</text>
+    <rect x="625" y="170" width="230" height="155" rx="18" fill="#fff" stroke="#55a868"/>
+    <text x="660" y="215" font-size="22" font-weight="700">MS3</text>
+    <text x="660" y="250" font-size="17">MLOps baseline</text>
+    <text x="660" y="275" font-size="17">Endpoint setup</text>
+    <text x="660" y="300" font-size="17">Observability</text>
+    <rect x="905" y="440" width="230" height="155" rx="18" fill="#fff" stroke="#d95f59"/>
+    <text x="940" y="485" font-size="22" font-weight="700">MS4</text>
+    <text x="940" y="520" font-size="17">Validation</text>
+    <text x="940" y="545" font-size="17">Knowledge transfer</text>
+    <text x="940" y="570" font-size="17">Handover</text>
+  </g>
+</svg>
