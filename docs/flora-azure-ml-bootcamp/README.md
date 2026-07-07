@@ -4,11 +4,21 @@ This folder contains the Azure ML learning material created for the Flora R&D Da
 
 The goal is not to become a data scientist. The goal is to deliver a secure Azure ML Workbench using Terraform, Azure DevOps, private networking, MLOps, model serving, and handover documentation.
 
+## GitHub Page
+
+Open the visual GitHub Pages version after the branch is merged and Pages is deployed:
+
+```text
+https://myroad2cloud.github.io/azure-ml/flora-azure-ml-bootcamp.html
+```
+
 ## Deck
 
-The PowerPoint deck was generated in ChatGPT as `Flora_Azure_ML_Bootcamp_Visual_Guide.pptx`.
+The PowerPoint deck is stored as:
 
-Note: this repository update includes the written learning pack and SVG visuals. The binary PPTX file should be uploaded separately if it must live inside the repository, because the current GitHub connector path supports text-file updates cleanly but not direct binary file upload from the chat sandbox.
+```text
+docs/flora-azure-ml-bootcamp/assets/Flora_Azure_ML_Bootcamp_Visual_Guide.pptx
+```
 
 ## Project context from SOW
 
@@ -51,13 +61,12 @@ Azure ML Workbench
 | 1 | Azure ML platform mental model | Understand the platform before touching Terraform |
 | 2 | Secure target architecture | Align with private-only customer landing zone |
 | 3 | SOW delivery map | Know what is in scope and what is not |
-| 4 | Workspace internals | Know what Azure ML creates and depends on |
+| 4 | Terraform and Azure DevOps split | Make the delivery repeatable without overloading Terraform |
 | 5 | Compute model | Explain compute instance, CPU cluster, and GPU cluster |
-| 6 | MLflow and model registry | Meet experiment tracking and lifecycle acceptance criteria |
-| 7 | Managed online endpoint | Deploy at least one model to a test endpoint |
-| 8 | Azure Container Apps | Provide controlled web UI access |
-| 9 | Terraform and Azure DevOps | Make the delivery repeatable |
-| 10 | Handover and runbook | Close the project cleanly |
+| 6 | MLflow, model registry, and endpoints | Meet tracking, lifecycle, and serving acceptance criteria |
+| 7 | Azure Container Apps web UI | Provide controlled web-based access |
+| 8 | Validation and handover | Close the project with evidence |
+| 9 | Workspace internals | Know what Azure ML creates, depends on, and what can break |
 
 ## Key architecture rule
 
